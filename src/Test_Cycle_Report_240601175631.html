@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Test Cycle Report</title>
+
+        <style>
+            h3 {
+                font-size: 40px;
+                color: #555555;
+                font-family: Euphemia, Arial;
+                margin-bottom: 0px;
+                margin-top: 20px;
+            }
+
+            h1 {
+                clear: right;
+                font-size: 50px;
+                color: rgb(96, 22, 165);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                margin-bottom: 0px;
+                text-align: center;
+            }
+
+            h2 {
+                font-size: 40px;
+                color: rgb(96, 22, 165);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                margin-bottom: 10px;
+                margin-top: 0px;
+                text-align: center;
+            }
+
+            hr {
+                margin-top: 0px;
+                margin-bottom: 20px;
+            }
+
+            img {
+                height: 480px;
+                width: 640px;
+            }
+
+            td {
+                /*border: 2px solid black;
+                padding-left: 50px;
+                padding-right: 50px;*/
+                padding: 5px;
+                font-size: 20px;
+            }
+
+            tr {
+                vertical-align: top;
+            }
+
+            .section1 {
+                width: 100%;
+            }
+
+            .test_report_details {
+                border: 2px solid rgb(156, 156, 156);
+            }
+
+            .param {
+                font-size: 22px;
+                font-family: Georgia, Times, 'Times New Roman', serif;
+                color: rgb(55, 20, 88);
+                font-weight: bold;
+            }
+
+            .value {
+                font-size: 22px;
+                font-family: Arial, Helvetica, sans-serif;
+                color:rgb(190, 76, 0);
+                font-weight: bold;
+            }
+
+            #bug_details, #test_cases_summary {
+                width: 1000px;
+                border: 2px solid black;
+                border-collapse: collapse;
+                margin-top: 40px;
+                margin-bottom: 30px;
+                margin-left: 60px;
+                margin-right: 60px;
+            }
+
+            #test_cases_summary td {
+                background-color: rgb(216, 175, 255);
+                border: 2px solid black;
+                padding: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 10px;
+                padding-right: 10px;
+                text-align: center;
+                height: 40px;
+                padding-top: 20px;
+            }
+
+            #test_cases_summary th {
+                font-size: 20px;
+                background-color: blueviolet;
+                /*color: rgb(230, 230, 230);*/
+                color: wheat;
+                border: 2px solid black;
+                padding: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            #bug_details {
+                border: 2px solid black;
+                border-collapse: collapse;
+                margin-bottom: 75px;
+            }
+
+            #bug_details th {
+                background-color: orange;
+                color: white;
+                padding-left: 75px;
+                padding-right: 75px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+                /*color: rgb(230, 230, 230);*/
+                border: 2px solid black;
+                padding: 3px;
+            }
+
+            #bug_details td {
+                background-color: rgb(255, 219, 154);
+                border: 2px solid black;
+                padding: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            #conclusion {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 25px;
+                margin: 25px;
+                margin-left: 75px;
+            }
+
+            #logo {
+                float: right;
+                height: 90px;
+                width: 296px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <!-- NOTE: This is an auto-generated file -->
+
+        <img id = "logo" src = "./company_logo.jpg">
+
+        <h1>PROJECT ROCKET</h1><br>
+        <h2>TEST CYCLE REPORT</h2>
+        <br>
+
+        <h3>Test Report Details</h3>
+        <hr>
+
+        <table class = "section1">
+            <tbody>
+                <tr>
+                    <td class = "test_report_details">
+                        <table class = "section1">
+                            <tbody>
+                                <tr>
+                                    <td class = "param">Test Cycle ID</td>
+                                    <td class = "value">: TC1</td>
+                                </tr>
+                                <tr>
+                                    <td class = "param">Test Report Date</td>
+                                    <td class = "value">: 01-06-2024</td>
+                                </tr>
+                                <tr>
+                                    <td class = "param">Prepared By</td>
+                                    <td class = "value">: Madhavakumar D</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class = "test_report_details">
+                        <table class = "section1">
+                            <tbody>
+                                <tr>
+                                    <td class = "param">SW Version</td>
+                                    <td class = "value">: 1.0.23</td>
+                                </tr>
+                                <tr>
+                                    <td class = "param">HW Version</td>
+                                    <td class = "value">: 2.0</td>
+                                </tr>
+                                <tr>
+                                    <td class = "param">Component1</td>
+                                    <td class = "value">: cloud  ver 2.0.5</td>
+                                </tr>
+                                <tr>
+                                    <td class = "param">Component2</td>
+                                    <td class = "value">: NA</td>
+                                </tr>
+                                <tr>
+                                    <td class = "param">Component3</td>
+                                    <td class = "value">: NA</td>
+                                </tr>
+                                <tr>
+                                    <td class = "param">Component4</td>
+                                    <td class = "value">: NA</td>
+                                </tr>
+                                <tr>
+                                    <td class = "param">Test Environment</td>
+                                    <td class = "value">: Bench Setup</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+
+        <h3>Test Cases Summary</h3>
+        <hr>
+
+        <table id = "test_cases_summary">
+            <thead>
+                <tr>
+                    <th>Total</th>
+                    <th>Run</th>
+                    <th>Not Run</th>
+                    <th>Passed</th>
+                    <th>Passed with deviation</th>
+                    <th>Failed</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>250</td>
+                    <td>200</td>
+                    <td>50</td>
+                    <td>125</td>
+                    <td>5</td>
+                    <td>70</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <img src = "./test_cases_summary.png">
+
+        <h3>Bug Details</h3>
+        <hr>
+
+        <table id = "bug_details">
+            <thead>
+                <tr>
+                    <th>Bug Type</th>
+                    <th>Count</th>
+                    <th>Comments</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Critical</td>
+                    <td>3</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Major</td>
+                    <td>5</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Minor</td>
+                    <td>12</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Cosmetic</td>
+                    <td>25</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Conclusion</h3>
+        <hr>
+
+<div id = "conclusion">
+            Software worked without any blocking issues.
+        </div>
+
+    </body>
+
+</html>
